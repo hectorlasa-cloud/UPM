@@ -11,11 +11,13 @@
         border-radius: 10px;
     }
 
+
     .titulo-menu {
         color: white;
         text-align: center;
         margin: 0 0 10px 0;
     }
+
 
     .menu {
         list-style: none;
@@ -24,12 +26,14 @@
         display: flex;
     }
 
+
     .menu > li {
         position: relative;
         padding: 15px 20px;
         color: white;
         cursor: pointer;
     }
+
 
     .submenu {
         list-style: none;
@@ -43,26 +47,40 @@
         min-width: 150px;
     }
 
+
     .submenu li {
         padding: 10px;
         color: white;
     }
 
+
     .menu > li:hover .submenu {
         display: block;
     }
+
 
     .submenu li:hover {
         background-color: #0077cc;
     }
 
+
     .enlace {
         color:white;
         text-decoration: none;
     }
+
+    .general {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:rgb(218, 218, 218);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
     </style>
 </head>
 <body>
+
 
 <nav>
     <h1 class="titulo-menu">Universidad Politécnica de Minavo</h1>
@@ -70,7 +88,7 @@
         <li>
             Ciencia
             <ul class="submenu">
-                <li><a class="enlace" href="ciencia/biologia.html">Biología</a></li>
+                <li><a class="enlace" href="ciencia/biologia/biologia.html">Biología</a></li>
                 <li><a class="enlace" href="ciencia/fisica.html">Física</a></li>
                 <li><a class="enlace" href="ciencia/quimica.html">Química</a></li>
             </ul>
@@ -96,6 +114,7 @@
             Historia
             <ul class="submenu">
                 <li><a class="enlace" href="historia/antigua.html">Antigua</a></li>
+                <li><a class="enlace" href="historia/mediana.html">Mediana</a></li>
                 <li><a class="enlace" href="historia/moderna.html">Moderna</a></li>
                 <li><a class="enlace" href="historia/contemporanea.html">Contemporánea</a></li>
             </ul>
@@ -104,39 +123,44 @@
 </nav>
 
 
-<h2>Acerca de la universidad</h2>
-<p>
-    Esta universidad se dedica a recopilar información de diversos temas y a realizar estudios.
-    Su objetivo es hacerlos públicos para que cualquier persona pueda acceder a ellos de forma
-    gratuita y sin registro.
-</p>
+<div class="general">
+    <h2>Acerca de la universidad</h2>
+    <p>
+        Esta universidad se dedica a recopilar información de diversos temas y a realizar estudios.
+        Su objetivo es hacerlos públicos para que cualquier persona pueda acceder a ellos de forma
+        gratuita y sin registro.
+    </p>
 
-<h2>Áreas de estudio</h2>
-<ul>
-    <li>Ciencia</li>
-    <li>Tecnología</li>
-    <li>Matemáticas</li>
-    <li>Historia</li>
-</ul>
 
-<h2>Objetivos</h2>
-<p>
-    El objetivo principal de la universidad es difundir conocimiento fiable,
-    fomentar el aprendizaje autónomo y apoyar la investigación abierta.
-</p>
+    <h2>Áreas de estudio</h2>
+    <ul>
+        <li>Ciencia</li>
+        <li>Tecnología</li>
+        <li>Matemáticas</li>
+        <li>Historia</li>
+    </ul>
 
-<h2>Metodología</h2>
-<p>
-    Los contenidos se elaboran a partir de fuentes contrastadas y estudios propios,
-    organizados de forma clara y accesible.
-</p>
 
-<h2>Acceso a los contenidos</h2>
-<p>
-    Todo el material es de acceso libre, sin necesidad de registro ni pagos,
-    promoviendo el conocimiento abierto.
-</p>
+    <h2>Objetivos</h2>
+    <p>
+        El objetivo principal de la universidad es difundir conocimiento fiable,
+        fomentar el aprendizaje autónomo y apoyar la investigación abierta.
+    </p>
 
+
+    <h2>Metodología</h2>
+    <p>
+        Los contenidos se elaboran a partir de fuentes contrastadas y estudios propios,
+        organizados de forma clara y accesible.
+    </p>
+
+
+    <h2>Acceso a los contenidos</h2>
+    <p>
+        Todo el material es de acceso libre, sin necesidad de registro ni pagos,
+        promoviendo el conocimiento abierto.
+    </p>
+</div>
 
 
 </body>
